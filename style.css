@@ -68,10 +68,13 @@ h1, h2{
 /* -----"main"----- */
 .width{
     width: 100%;
-    
+    overflow-y: auto;
+}
+main{
+    height: calc(100vh - 80px);
 }
 .main{
-    height:100%;
+    
     padding: 15px;
     color: lightgray;
     background-color: rgb(33, 36, 44);
@@ -115,11 +118,12 @@ h1, h2{
 .rotonda{
     border-radius: 50%;
 }
+
 /* -----footer----- */
 
 
 .footer{
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(49, 49, 49);
     position: fixed;
     bottom: 0;
     height: 80px;
