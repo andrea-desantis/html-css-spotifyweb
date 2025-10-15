@@ -9,16 +9,16 @@
 </head>
 <body>
     <main class="flex">
-        <section class="side-bar space-between">
-            <div>
-                <div>
-                    <img src="" alt="logo">
+        <section class="side-bar space-between column">
+            <div class="flex column">
+                <div class="bot-mar20">
+                    <img src="./img/logo-small.svg" alt="logo" width="100%">
                 </div>
                 <div>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul class="">
+                        <li class="bot-mar5"><img src="./img/home.svg" alt="home"></li>
+                        <li class="bot-mar5"><img src="./img/search.svg" alt="search"></li>
+                        <li class="bot-mar5"><img src="./img/libreria.svg" alt="libreria"></li>
                     </ul>
                 </div>
                 <div class="playlist">
@@ -34,7 +34,10 @@
                     </ul>
                 </div>
             </div>
-            <div></div>
+            <div class="flex column gap center-y">
+                <img src="./img/download.svg" alt="" width="50%">
+                <img src="./img/profile.svg" alt="" width="90%" class="profile">
+            </div>
         </section>
         <section class="width">
             <div class="header">
@@ -89,16 +92,19 @@
                     </div>
 
                     <div>
-                        <h2>Creato per John Doe</h2>
-                        <p>descrizione</p>
-                        <div>
+                        <div class="bot-mar20">
+                            <h2>Creato per John Doe</h2>
+                            <p>Più ascolti, più accurati saranno i suggerimenti</p>
+                        </div>
+                        
+                        <div class="flex wrap gap">
                             <div class="card">
-                                <img src="" alt="">
+                                <img src="./img/radar.jpeg" alt="">
                                 <p class="text-white">Nome</p>
                                 <p>artista</p>
                             </div>
                             <div class="card">
-                                <img src="" alt="">
+                                <img src="./img/mixdaily.jpeg" alt="">
                                 <p class="text-white">Nome</p>
                                 <p>artista</p>
                             </div>
@@ -106,16 +112,19 @@
                     </div>
 
                     <div>
-                        <h2>Artisti più popolari</h2>
-                        <p>descrizione</p>
-                        <div>
-                            <div class="card rotonda">
-                                <img src="" alt="">
+                        
+                        <div class="bot-mar20">
+                            <h2>Artisti più popolari</h2>
+                            <p>descrizione</p>
+                        </div>
+                        <div class="flex wrap gap">
+                            <div class="card flex center-y gap">
+                                <img src="./img/youg.jpeg" alt="" class="rotonda">
                                 <p class="text-white">Nome artista</p>
                                 
                             </div>
-                            <div class="card rotonda">
-                                <img src="" alt="">
+                            <div class="card flex center-y gap">
+                                <img src="./img/einaudi.jpeg" alt="" class="rotonda"> 
                                 <p class="text-white">Nome artista</p>
                                 
                             </div>
@@ -132,10 +141,10 @@
             <div>
                 <div class="flex">
                     <div>
-                        <img src="" alt="">
+                        <img src="./img/sinister.jpeg" alt="" width="30px">
                     </div>
                     <div>
-                        <p>nome</p>
+                        <p>Sinister</p>
                         <p>artista</p>
                     </div>
                 </div>
