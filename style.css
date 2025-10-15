@@ -80,6 +80,13 @@ main{
     background-color: rgb(33, 36, 44);
 }
 
+.sezioni{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
 /* -----Header----- */
 
 .header{
@@ -124,9 +131,13 @@ main{
 
 .footer{
     background-color: rgb(49, 49, 49);
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
     height: 80px;
     width: 100%;
     padding: 10px 15px;
 }
+
+
+/* -----hover----- */
+
