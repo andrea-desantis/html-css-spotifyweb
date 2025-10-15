@@ -18,6 +18,13 @@ h1, h2{
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+.column{
+    flex-direction: column;
+}
+
 .text-white{
     color: white;
 }
@@ -36,11 +43,12 @@ h1, h2{
     width: 100%;
 }
 .main{
-    height: calc(100% - 100px - 80px);
+    height:100%;
     padding: 15px;
     color: lightgray;
     background-color: rgb(33, 36, 44);
 }
+
 /* -----Header----- */
 
 .header{
@@ -49,6 +57,9 @@ h1, h2{
     top: 0;
     height: 100px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
 }
 
@@ -58,12 +69,9 @@ h1, h2{
     padding: 10px 30px;
     border-radius: 30px;
     text-decoration: none;
+    margin: 15px 5px;
 }
-.b-position{
-    position: relative;
-    left: 250px;
-    top: 15px;
-}
+
 /* -----griglia----- */
 .card{
     
@@ -71,7 +79,7 @@ h1, h2{
 
 /* -----footer----- */
 
-.footer{
+footer{
     background-color: rgb(75, 75, 75);
     position: fixed;
     bottom: 0;
