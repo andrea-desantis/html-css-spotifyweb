@@ -202,7 +202,9 @@ main{
 
 
 /* -----hover----- */
-
+.white{
+    /*  */
+}
 .button:hover{
     font-size: 120%;
 }
@@ -215,3 +217,14 @@ div.position-rel:hover .index2{
     /* box-sizing: content-box; */
 }
 
+li.side-icon:hover {
+    color: white;
+}
+
+div.playlist> ul> li:hover{
+    color: white;
+}
+
+.white:hover{
+    color: white;
+}
