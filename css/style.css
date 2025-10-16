@@ -32,6 +32,9 @@ h1, h2{
 .center-y{
     align-items: center;
 }
+.center-x{
+    justify-content: center;
+}
 .space-between{
     justify-content: space-between;
 }

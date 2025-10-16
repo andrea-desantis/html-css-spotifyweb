@@ -41,10 +41,12 @@
         align-items: center;
         
     }
+
     .icon-section{
         margin-left: 10px;
         margin-bottom: 20px;
     }
+
     .icon-size{
         width: 15%;
         display: inline-block;
@@ -59,5 +61,11 @@
     .side-bar-foot{
         margin: 10px;
         color: rgb(192, 190, 190);
+    }
+    .download{
+        width: 20px;
+    }
+    .center-x{
+        justify-content: flex-start;
     }
 }
