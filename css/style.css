@@ -42,6 +42,9 @@ h1, h2{
 .bot-mar20{
     margin-bottom: 20px;
 }
+.bot-mar15{
+    margin-bottom: 15px;
+}
 .bot-mar5{
     margin-bottom: 5px;
 }
@@ -90,6 +93,10 @@ div.side-icon{
     width: 100%;
     background-image: url(../img/logo-small.svg);
     padding-top: 100%;
+}
+
+.side-bar-foot{
+    /*  */
 }
 /* -----"main"----- */
 .width{
