@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>Spotify</title>
 </head>
@@ -11,32 +12,42 @@
     <main class="flex">
         <section class="side-bar column">
             <div class="flex column">
-                <div class="bot-mar20">
-                    <img src="./img/logo-small.svg" alt="logo" width="100%">
+                <div class="bot-mar20 logo">
+                    <!-- <img src="./img/logo-small.svg" alt="logo"> -->
                 </div>
-                <div>
-                    <ul class="">
-                        <li class="bot-mar5"><img src="./img/home.svg" alt="home"></li>
-                        <li class="bot-mar5"><img src="./img/search.svg" alt="search"></li>
-                        <li class="bot-mar5"><img src="./img/libreria.svg" alt="libreria"></li>
+                <div class="icon-section">
+                    <ul>
+                        <li class="bot-mar5 side-icon">
+                            <img src="./img/home.svg" alt="home" class="icon-size">
+                            <span class="display-sidebar-content"> Home</span>
+                        </li>
+                        <li class="bot-mar5 side-icon">
+                            <img src="./img/search.svg" alt="search" class="icon-size">
+                            <span class="display-sidebar-content"> Cerca</span>
+                        </li>
+                        <li class="bot-mar5 side-icon">
+                            <img src="./img/libreria.svg" alt="libreria" class="icon-size">
+                            <span class="display-sidebar-content">La tua libreria</span>
+                        </li>
                     </ul>
                 </div>
                 <div class="playlist">
+                    <p class="text-white bot-mar5">PLAYLIST</p>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li class="bot-mar5 flex center-y"><i class="fa-solid fa-square-plus square-plus-size"></i> Crea Playlist</li>
+                        <li class="bot-mar5">Nome Playlist</li>
+                        <li class="bot-mar5">Nome Playlist</li>
+                        <li class="bot-mar5">Nome Playlist</li>
+                        <li class="bot-mar5">Nome Playlist</li>
+                        <li class="bot-mar5">Nome Playlist</li>
+                        <li class="bot-mar5">Nome Playlist</li>
+                        <li class="bot-mar5">Nome Playlist</li>
                     </ul>
                 </div>
             </div>
             <div class="flex column gap center-y">
-                <img src="./img/download.svg" alt="" width="50%">
-                <img src="./img/profile.svg" alt="" width="90%" class="profile">
+                <img src="./img/download.svg" alt="" class="download">
+                <img src="./img/profile.svg" alt=""  class="profile">
             </div>
         </section>
         <section class="width">
@@ -59,32 +70,59 @@
                         <h1 class="">Recently Played</h1>
                         <div class="flex wrap gap">
                             <div class="card">
-                                <img src="./img/metal_lifting.jpg" alt="">
+                                <div class="position-rel">
+                                    <img src="./img/metal_lifting.jpg" alt="" class="">
+                                    <i class="fa-solid fa-play-circle position-abs play index2"></i>
+                                </div>
+                                
+                                <div>
+                                    <p class="text-white">Nome</p>
+                                    <p>artista</p>
+                                </div>
+                                
+                            </div>
+                            <div class="card">
+                                <div class="position-rel">
+                                    <img src="./img/stranger.jpeg" alt="">
+                                    <i class="fa-solid fa-play-circle position-abs play index2"></i>
+                                </div>
+                                
                                 <p class="text-white">Nome</p>
                                 <p>artista</p>
                             </div>
                             <div class="card">
-                                <img src="./img/stranger.jpeg" alt="">
+                                <div class="position-rel">
+                                    <img src="./img/aquietplace.jpeg" alt="">
+                                    <i class="fa-solid fa-play-circle position-abs play index2"></i>
+                                </div>
+                                
                                 <p class="text-white">Nome</p>
                                 <p>artista</p>
                             </div>
                             <div class="card">
-                                <img src="./img/aquietplace.jpeg" alt="">
+                                <div class="position-rel">
+                                    <img src="./img/split.jpeg" alt="">
+                                    <i class="fa-solid fa-play-circle position-abs play index2"></i>
+                                </div>
+                                
                                 <p class="text-white">Nome</p>
                                 <p>artista</p>
                             </div>
                             <div class="card">
-                                <img src="./img/split.jpeg" alt="">
+                                <div class="position-rel">
+                                    <img src="./img/cure.jpeg" alt="">
+                                    <i class="fa-solid fa-play-circle position-abs play index2"></i>
+                                </div>
+                                
                                 <p class="text-white">Nome</p>
                                 <p>artista</p>
                             </div>
                             <div class="card">
-                                <img src="./img/cure.jpeg" alt="">
-                                <p class="text-white">Nome</p>
-                                <p>artista</p>
-                            </div>
-                            <div class="card">
-                                <img src="./img/sinister.jpeg" alt="">
+                                <div class="position-rel">
+                                    <img src="./img/sinister.jpeg" alt="">
+                                    <i class="fa-solid fa-play-circle position-abs play index2"></i>
+                                </div>
+                                
                                 <p class="text-white">Nome</p>
                                 <p>artista</p>
                             </div>
