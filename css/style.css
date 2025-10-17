@@ -38,6 +38,10 @@ h1, h2{
 .space-between{
     justify-content: space-between;
 }
+
+.space-evenly{
+    justify-content: space-evenly;
+}
 .text-white{
     color: white;
 }
@@ -200,10 +204,28 @@ main{
     padding: 10px 15px;
 }
 
+.barra-play{
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.circle-size{
+    font-size: 20px;
+}
 /* -----hover----- */
+
+i.circle-size:hover {
+    font-size: 25px;
+}
+.underline:hover{
+    text-decoration: underline;
+}
+
 .white{
-    /*  */
+    color: rgb(192, 190, 190);
 }
 .button:hover{
     font-size: 120%;
@@ -213,6 +235,7 @@ main{
 div.position-rel:hover .index2{
     z-index: 5;
     background-color: rgba(0, 0, 0, 0.521);
+    
     /* padding: calc(50% - 30px) calc(50% - 75px/2); */
     /* box-sizing: content-box; */
 }
@@ -228,3 +251,7 @@ div.playlist> ul> li:hover{
 .white:hover{
     color: white;
 }
+
+/* div.card> div> img:hover img{
+    background-color:  rgba(0, 0, 0, 0.521);
+} */
